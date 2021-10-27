@@ -1,0 +1,40 @@
+.ui.fluid.container.home_container {
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.home_welcome {
+	padding-bottom: 3rem;
+}
+.home_banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.centrino {
+	display: none;
+}
+
+.ui.red.label {
+	color: black !important;
+}
+.ui.black.segment {
+	background-color: #357b8a;
+}
+h3 {
+	font-weight: bold;
+}
+@media only screen and (max-width: 800px) {
+	.ui.fluid.container.home_container {
+		height: auto;
+	}
+	.banner {
+		display: none;
+	}
+	.centrino {
+		display: inline;
+	}
+}

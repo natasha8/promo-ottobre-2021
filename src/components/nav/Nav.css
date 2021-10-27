@@ -1,0 +1,71 @@
+.ui.fluid.container.nav_container {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid gray;
+	width: 100vw;
+}
+
+.nav_logo,
+.nav_icons {
+	padding: 2rem 1.5rem;
+	max-height: 5rem;
+	display: flex;
+	align-items: center;
+}
+.nav_logo {
+	justify-content: flex-start;
+}
+.nav_icons {
+	justify-content: flex-end;
+}
+.nav_icon_lock > a {
+	color: #357b8a;
+	padding: 1rem;
+	height: 2rem;
+}
+.nav_icon {
+	color: white;
+	padding: 3rem;
+}
+.nav_icon > a {
+	color: white;
+}
+.nav_icon:hover {
+	transform: scale(1.2);
+}
+.fire.icon {
+	color: red;
+}
+i.fire.icon > a {
+	color: white;
+}
+i.icon {
+	font-size: 1.6em;
+}
+.ui.image.logo {
+	width: 30em;
+}
+
+@media only screen and (max-width: 800px) {
+	.ui.container {
+		width: 100vw !important;
+	}
+	.nav_icons {
+		max-height: 5rem;
+	}
+	.nav_icons_lock {
+		padding-right: 0.5rem;
+	}
+	.nav_logo {
+		padding-left: 1rem;
+	}
+	.ui.image.logo {
+		width: 40em;
+	}
+	.nav_icon {
+		padding: 0.2rem;
+	}
+}

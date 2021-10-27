@@ -1,0 +1,42 @@
+.ui.fluid.container.single_promo__container {
+	min-height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	padding: 0 2rem;
+}
+.ui.doubling.stackable.divided.grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2.ui.header,
+h4.ui.header,
+h5.ui.header {
+	color: white;
+}
+
+.row.single_promo {
+	height: 70vh;
+}
+.row.single_promo > img {
+	display: none;
+}
+.ui.inverted.segment.feed_form {
+	height: auto;
+}
+.ui.fluid.button.form {
+	margin-top: 2rem;
+	padding: 1rem;
+}
+@media only screen and (max-width: 800px) {
+	.row.single_promo > img {
+		display: inline;
+	}
+	.ui.header {
+		padding-top: 0.5rem;
+	}
+}
